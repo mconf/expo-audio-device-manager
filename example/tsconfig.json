@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "expo-audio-device-manager": ["../src/index"],
+      "expo-audio-device-manager/*": ["../src/*"]
+    }
+  }
+}
